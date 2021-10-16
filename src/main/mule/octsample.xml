@@ -13,6 +13,7 @@ output application/json
 ---
 {
 	statusCode: 200,
+	status: "Active",
 	message: "Success."
 }]]></ee:set-payload>
 			</ee:message>
