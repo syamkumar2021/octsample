@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: gitSample
+baseUri: http://localhost:8081/api
+/gitSample:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "message": "processed successfully."
+              }
